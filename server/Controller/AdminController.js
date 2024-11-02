@@ -1,4 +1,4 @@
-const express = require('express')
+const express = require ('express')
 
 const getCredentials = (req, res) => {
     const Credentials = { "username": "admin", "password": "123" }
