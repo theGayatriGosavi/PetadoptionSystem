@@ -22,7 +22,7 @@ app.use('/form', AdoptFormRoute)
 app.use('/admin', AdminRoute)
 
 app.get('/', (req, res) => {
-    res.send('Welcome to PawFinds - A Pet Adoption System!');
+    res.send('Welcome to AdoptPet - A Pet Adoption System!');
   });
   
 mongoose.connect(process.env.mongooseURL)
