@@ -1,6 +1,5 @@
 import React from 'react'
 import AdminNavBar from "./AdminNavBar";
-import AdminFooter from "./AdminFooter";
 import AdminScreen from './AdminScreen';
 
 const AdminPanel = () => {
@@ -8,7 +7,6 @@ const AdminPanel = () => {
     <div>
       <AdminNavBar/>
       <AdminScreen/>
-      <AdminFooter/>
     </div>
   )
 }
